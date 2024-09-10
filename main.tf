@@ -6,7 +6,7 @@ variable "instance_type_value" {
 description = "value for instance_type"
 }
 provider "aws" {
-region = "us-east-1"
+region = "ap-south-1"
 }
 resource "aws_instance" "demo" {
 ami = var.ami_value
